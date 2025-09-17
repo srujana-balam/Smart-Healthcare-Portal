@@ -1,4 +1,5 @@
 Phase 2: Org Setup & Configuration (Healthcare Project)
+
 Create a New Lightning App
 •	App Manager → New Lightning App.
 •	Smart Healthcare CRM
