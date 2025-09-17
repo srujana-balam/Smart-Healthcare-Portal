@@ -15,18 +15,18 @@ Custom Objects
  
  
 Custom Fields
-       Appointment__c
-•	Appointment_Start__c (Date/Time)
-•	Appointment_End__c (Date/Time)
-•	Status__c (Picklist: Scheduled, Completed, Cancelled)
-•	Patient__c (Lookup → Patient/Contact)
-•	Provider__c (Lookup → Provider__c)
-•	Reason_for_Visit__c (Text Area)
+1. Appointment__c
+2.	Appointment_Start__c (Date/Time)
+3.	Appointment_End__c (Date/Time)
+4.	Status__c (Picklist: Scheduled, Completed, Cancelled)
+5.	Patient__c (Lookup → Patient/Contact)
+6. Provider__c (Lookup → Provider__c)
+7.	Reason_for_Visit__c (Text Area)
  
  
  Tabs for Custom Objects
- Appointments
- Notification logs
- Prescriptions
- Providers
- Visits
+ 1. Appointments
+ 2. Notification logs
+ 3. Prescriptions
+ 4. Providers
+ 5. Visits
