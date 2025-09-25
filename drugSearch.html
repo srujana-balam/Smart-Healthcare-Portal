@@ -1,0 +1,19 @@
+<template>
+    <lightning-card title="FHIR Patients" icon-name="standard:people">
+        <div class="slds-m-around_medium">
+            <lightning-button 
+                label="Fetch Patients" 
+                onclick={fetchPatients}>
+            </lightning-button>
+        </div>
+
+        <template if:true={patients}>
+            <p class="slds-m-around_medium"><b>FHIR Response:</b></p>
+            <pre>{patients}</pre>
+        </template>
+
+        <template if:true={error}>
+            <div class="slds-text-color_error slds-m-around_medium">{error}</div>
+        </template>
+    </lightning-card>
+</template>

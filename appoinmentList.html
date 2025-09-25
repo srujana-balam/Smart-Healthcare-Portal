@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title="Upcoming Appointments" icon-name="standard:date">
+        <template if:true={rows}>
+            <lightning-datatable data={rows} columns={columns} key-field="id"></lightning-datatable>
+        </template>
+        <template if:true={errorMessage}>
+            <div class="slds-text-color_error slds-m-around_medium">
+                {errorMessage}
+            </div>
+        </template>
+        <div class="slds-p-around_small">
+            <lightning-button label="New Appointment" variant="brand" onclick={handleNewAppointment}></lightning-button>
+        </div>
+    </lightning-card>
+</template>
